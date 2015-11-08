@@ -8,5 +8,5 @@ class Book < ActiveRecord::Base
 
   # has_many :identifiers, :formats, :publishers
 
-  include PgSearch
+  # include PgSearch
 end
